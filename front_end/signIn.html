@@ -1,0 +1,41 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" href="./signIn.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <button id="home" onclick="window.location='homePage.html';" style="font-size: 2.5vw;">HOME</a>
+    </div>
+    <div class="si">
+
+        <h1 id="GameOfThrones" style="font-size: 4.9vw;">Sign In</h1>
+        <p>
+            <nav class="nav flex-column justify-content-flex-end">
+
+                <a class="nav-link active" href="./allCharacters.html" style="font-size: 2vw;">All Characters</a>
+                <a class="nav-link" href="./signUp.html" style="font-size: 2vw;">Sign Up</a>
+            </nav>
+            <form id="form">
+                <div class="form-group">
+                    <label for="inputUsername">Username</label>
+                    <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <button onclick="signIn()" type="button" class="btn btn-info">Submit</button>
+            </form>
+        </p>
+
+    </div>
+
+</body>
+
+</html>

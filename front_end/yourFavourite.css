@@ -1,0 +1,72 @@
+@font-face {
+    font-family: gotFont;
+    src: url("gotFont.ttf")
+}
+
+body, html {
+    height: 100%;
+}
+
+.yf {
+    background-image: url("yourFavourite.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: gotFont;
+    text-align: center;
+    font-size: 90px;
+    color: #b5afaf;
+    text-shadow: 2px 2px #750a0a;
+    padding-top: 20px;
+}
+#home {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: gotFont;
+    text-align: center;
+    font-size: 20px;
+    color: #b5afaf;
+    text-shadow: 2px 2px #750a0a;
+    position: absolute;
+    top: 15px;
+    padding-left: 15px;
+}
+
+nav a {
+    font-family: gotFont;
+    text-align: left;
+    font-size: large;
+    color: #b5afaf;
+    text-shadow: 2px 2px #610e0e;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+nav a:hover {
+    color: #b5afaf;
+    text-shadow: 2px 2px firebrick;
+}
+
+#accountCard {
+    font-family: gotFont;
+    color: #b5afaf;
+    font-weight: bolder;
+    text-shadow: #610e0e 2px 1px;
+    background-color: rgba(200,200,200,0.2);
+    height: 500px;
+    padding-left: 15px;
+}
+
+#favouriteCard {
+    font-family: gotFont;
+    color: #000000;
+    font-weight: bolder;
+    text-shadow: #610e0e 2px 1px;
+    background-color: rgba(200,200,200,0.2);
+    height: 500px;
+    padding-left: 15px;
+}

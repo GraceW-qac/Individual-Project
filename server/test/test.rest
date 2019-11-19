@@ -1,0 +1,14 @@
+//Create
+
+
+//Read
+//(All Characters)
+http://localhost:8080/characters/get/all
+
+http://localhost:8080/characters/get/1
+
+
+//Update
+
+//Delete
+//DELETE url HTTP/1.1

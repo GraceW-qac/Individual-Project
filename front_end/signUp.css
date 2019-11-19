@@ -1,0 +1,59 @@
+@font-face {
+    font-family: gotFont;
+    src: url("gotFont.ttf")
+}
+
+body, html {
+    height: 100%;
+}
+
+.su {
+    background-image: url("signUp.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: gotFont;
+    text-align: center;
+    font-size: 90px;
+    color: #35302f;
+    text-shadow: 2px 2px #610e0e;
+    padding-top: 20px;
+}
+#home {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: gotFont;
+    text-align: center;
+    font-size: 20px;
+    color: #35302f;
+    text-shadow: 2px 2px #610e0e;
+    position: absolute;
+    top: 15px;
+    padding-left: 15px;
+}
+
+nav a {
+    font-family: gotFont;
+    text-align: left;
+    font-size: large;
+    color: #35302f;
+    text-shadow: 0.5px 0.5px #610e0e;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+nav a:hover {
+    color: #000000;
+    text-shadow: 1px 1px firebrick;
+}
+
+#signUpForm {
+    padding-top: 10cm;
+    font-family: gotFont;
+    color: aliceblue; /*change later*/
+}
+

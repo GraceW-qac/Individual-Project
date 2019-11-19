@@ -1,0 +1,60 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" href="./yourFavourite.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body onload="showData()">
+    <div>
+        <button id="home" onclick="window.location='homePage.html';" style="font-size: 2.5vw;">HOME</a>
+    </div>
+    <div class="yf">
+
+        <h1 id="GameOfThrones" style="font-size: 4.9vw;">Your favourite</h1>
+        <p>
+
+            <nav class="nav flex-column justify-content-flex-end">
+
+                <a class="nav-link active" href="./allCharacters.html" style="font-size: 2vw;">All Characters</a>
+
+            </nav>
+
+        </p>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card" id="accountCard">
+                    <div class="card-body">
+                        <h5 class="card-title">Your Account</h5>
+                        <p class="card-text">First Name: <span id="u_first_name"></span></p>
+                        <p class="card-text">Last Name: <span id="u_last_name"></span></p>
+                        <p class="card-text">Username: <span id="username"></span></p>
+                        <p class="card-text">Email: <span id="email"></span></p>
+                        <a href="#" class="btn btn-dark">Update Information</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" id="favouriteCard">
+                    <div class="card-body">
+                        <h5 class="card-title">Your Character</h5>
+                        <p class="card-text">TITLE: <span id="title"></span></p>
+                        <p class="card-text">FIRST NAME: <span id="c_first_name"></span></p>
+                        <p class="card-text">LAST NAME: <span id="c_last_name"></span></p>
+                        <p class="card-text">EPITHET: <span id="epithet"></span></p>
+                        <p class="card-text">HOUSE: <span id="house"></span></p>
+                        <p class="card-text">STATUS: <span id="status"></span></p>
+                        <a href="addCharacter.html" class="btn btn-dark" id="create">Add new Character</a>
+                        <a href="updateCharacter.html" class="btn btn-dark" id="update">Update Character</a>
+                        <a href="deleteCharacter.html" class="btn btn-dark" id="delete">Delete Character</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./yourFavourite.js"></script>
+</body>
+
+</html>

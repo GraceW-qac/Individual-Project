@@ -1,0 +1,68 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" href="./signUp.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <button id="home" onclick="window.location='homePage.html';" style="font-size: 2.5vw;">HOME</a>
+    </div>
+    <div class="su">
+
+        <h1 id="GameOfThrones" style="font-size: 4.9vw;">Sign Up</h1>
+        <p>
+
+            <nav class="nav flex-column justify-content-flex-end">
+
+                <a class="nav-link active" href="./allCharacters.html" style="font-size: 2vw;">All Characters</a>
+                <a class="nav-link" href="./signIn.html" style="font-size: 2vw;">Sign In</a>
+
+            </nav>
+
+        </p>
+        <form class="needs-validation" novalidate id=signUpForm onsubmit="createUser(this); return false;">
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltip01">First name</label>
+                    <input name="first_name" type="text" class="form-control" id="validationTooltip01" placeholder="First name">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltip02">Last name</label>
+                    <input name="last_name" type="text" class="form-control" id="validationTooltip02" placeholder="Last name">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationTooltipUsername">Username</label>
+                    <div class="input-group">
+                        <input name = "username" type="text" class="form-control" id="validationTooltipUsername" placeholder="Username"
+                            aria-describedby="validationTooltipUsernamePrepend" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationTooltip03">Email</label>
+                    <input type="text" class="form-control" id="validationTooltip03" placeholder="Email">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationTooltip04">Password</label>
+                    <input type="text" class="form-control" id="validationTooltip04" placeholder="Password">
+                </div>
+                <div id="favourite-character" class="col-md-3 mb-3">
+                    <label for="validationTooltip05">Favourite Character</label>
+                    <input  name="fav_char_name" type="text" class="form-control" id="validationTooltip05"placeholder="Input their first name">
+                </div>
+            </div>
+            <button id="createAccount" class="btn btn-secondary" type="submit" href="yourFavourite.html">Create
+                Account</button>
+        </form>
+    </div>
+
+    <script src="./signUp.js"></script>
+</body>
+
+</html>
