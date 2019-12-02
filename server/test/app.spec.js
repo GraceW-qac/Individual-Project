@@ -5,7 +5,7 @@ const app = require('../server');
  chai.use(chaiHTTP);
 
  describe('server tests', () => {
-     it('should do this shit', () => {
+     it('should do this', () => {
         //expectations
         //chai.expect(true).to.equal(true);
         chai.request(app)
